@@ -1,0 +1,22 @@
+{
+  "name": "ractive-project",
+  "version": "0.1.0",
+  "description": "starter ractive project",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@martypdx",
+  "license": "MIT",
+  "dependencies": {
+    "ractive": "^0.6.0"
+  },
+  "devDependencies": {
+    "gobble": "^0.6.1",
+    "gobble-browserify": "^0.1.0",
+    "gobble-es6-transpiler": "^0.1.0",
+    "gobble-esperanto": "^0.1.0",
+    "gobble-ractive": "^0.1.1",
+    "gobble-sass": "^0.2.0",
+    "node-sass": "^0.9.6"
+  }
+}
