@@ -1,9 +1,9 @@
 import App from './app';
 import Ractive from 'ractive';
+import Components from './components';
 
-Ractive.components.widget = require('./widget');
+Ractive.defaults.debug = true
 
-var ractive = new App({
-        el: document.body,
-        data: []
+window.ractive = new App({
+        el: document.body
     })
