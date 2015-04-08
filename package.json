@@ -8,15 +8,17 @@
   "author": "@martypdx",
   "license": "MIT",
   "dependencies": {
-    "ractive": "^0.6.0"
+    "ractive": "^0.7.2",
+    "ractive-events-tap": "^0.2.0",
+    "ractive-transitions-fade": "^0.2.0"
   },
   "devDependencies": {
-    "gobble": "^0.6.1",
-    "gobble-browserify": "^0.1.0",
-    "gobble-es6-transpiler": "^0.1.0",
-    "gobble-esperanto": "^0.1.0",
-    "gobble-ractive": "^0.1.1",
-    "gobble-sass": "^0.2.0",
-    "node-sass": "^0.9.6"
+    "gobble-browserify": "^0.2.0",
+    "gobble-cli": "^0.3.5",
+    "gobble-es6-transpiler": "^0.1.2",
+    "gobble-esperanto": "^0.2.4",
+    "gobble-ractive": "^0.2.0",
+    "gobble-sass": "^0.4.0",
+    "node-sass": "^2.1.1"
   }
 }

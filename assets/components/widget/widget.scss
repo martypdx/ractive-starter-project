@@ -1,7 +1,14 @@
+@import '_vendor';
+
 p {
-	font-size: 40px;
+	font-size: 20px;
+	font-family: sans-serif;
 
 	span {
+		position: absolute;
+		cursor: pointer;
 		color: green;
+		text-decoration: underline;
+		@include prefix( transform,  translatex(10px) rotateZ(10deg) );
 	}
 }
