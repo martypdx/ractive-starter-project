@@ -56,7 +56,8 @@ You can also directly import npm modules, see the `fade` example also in `widget
 ### Entry points
 
 `index.html` is exactly what you would think. `js/index.js` is the bundle entry point for `browserify`. In the example
-file, I could have done `new Ractive.components.app()`, but for me importing it directly reads cleaner.
+file, I could have done `new Ractive.components.app()`, but for me importing it directly reads cleaner. Notice there's also
+an example of globally registering a plugin, in this case the very helpful `tap` plugin (use in lieu of `on-click`).
 
 ### Sass
 
@@ -109,7 +110,8 @@ But seriously, here are the two things to you should know:
 * You might take a peek at the css and the index.html headers. Some of the is useful - but I'd use the web instead to
 navigate the intricacies of html/css on mobile browsers.
 
-Now when you build using gobble (or whatever your build process is), you target the app/www folder. You can chain that with a call to
+Now when you build using gobble (or whatever your build process is), you target the app/www folder. __Notice I'm back in the main project directory__.
+You can chain that with a call to
 `cordova build` (moving into the `app` directory and back):
 
 ```sh
