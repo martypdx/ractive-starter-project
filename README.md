@@ -6,7 +6,7 @@ Quick start
 
 ```sh
 > git clone https://github.com/martypdx/ractive-starter-project.git
-> cd ractive-project
+> cd ractive-starter-project
 > npm install
 > gobble
 ```
@@ -18,7 +18,7 @@ There's no special utility (yet) for auto-creating new projects. Just clone (or 
 
 ```sh
 > git clone https://github.com/martypdx/ractive-project.git
-> mv ractive-project your-project-name
+> mv ractive-starter-project your-project-name
 > cd your-project-name
 > rm -rf .git
 > git init
