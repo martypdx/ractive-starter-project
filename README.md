@@ -1,6 +1,12 @@
+# Ractive Starter Project
+
 A starter project for ractive-based projects, including cordova (phonegap) support.
 
-## To Install
+* [Installing the Starter Project](#install-the-starter-project)
+* [Using the Build System](#using-the-build-system)
+* [Cordova Integration](#cordova-integration)
+
+## Install the Starter Project
 
 Quick start
 
@@ -26,7 +32,7 @@ There's no special utility (yet) for auto-creating new projects. Just clone (or 
 > gobble
 ```
 
-## About the Build Setup
+## Using the Build System
 
 Below is a description of the build process included in this project.
 
@@ -72,7 +78,7 @@ Files under `js` will get ES6 transpiled. Except for the `passthru` directory an
 
 `images` end up under `images`.
 
-## cordova
+## Cordova Integration
 
 Using ractive with cordova is extremely simple. ~~Most~~ All of what's listed here
 is just general tips on how to integrate a web development project with the cordova setup.
