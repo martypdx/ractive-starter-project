@@ -1,6 +1,6 @@
 # Ractive Starter Project
 
-A starter project for ractive-based projects, including cordova (phonegap) support.
+A starter project for ractive-based projects including cordova (phonegap) support.
 
 * [Installing the Starter Project](#install-the-starter-project)
 * [Using the Build System](#using-the-build-system)
@@ -36,9 +36,9 @@ There's no special utility (yet) for auto-creating new projects. Just clone (or 
 
 Below is a description of the build process included in this project.
 
-If you're just interesting in using ractive with cordova and have your own build process, [just go here](#user-content-cordova).
+If you're just interesting in using ractive with cordova and have your own build process, [just go here](#cordova-integration).
 
-The current build system is using [gobble](https://github.com/gobblejs/gobble) from our good friend [@Rich_Harris](https://twitter.com/Rich_Harris) ([Rich_Harris on github](github.com/Rich-Harris)).
+The current build system is using [gobble](https://github.com/gobblejs/gobble) from our good friend [@Rich_Harris](https://twitter.com/Rich_Harris).
 Some of the pieces I used already have newer, shinier versions or equivalents, but the output of the process would still be the same.
 
 ### General
