@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "description": "starter ractive project",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "gobble -e development"
   },
   "author": "@martypdx",
   "license": "MIT",
@@ -13,6 +13,8 @@
     "ractive-transitions-fade": "^0.2.0"
   },
   "devDependencies": {
+    "browserify": "^11.0.0",
+    "gobble-babel": "^5.5.8",
     "gobble-browserify": "^0.2.0",
     "gobble-cli": "^0.3.5",
     "gobble-es6-transpiler": "^0.1.2",
