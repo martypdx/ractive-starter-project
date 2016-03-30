@@ -15,8 +15,7 @@ var js = gobble( 'assets/js' )
 	.exclude( 'vendor/*.js' )
 	.exclude( 'passthru/*.js' );
 
-js = gobble( [ env, js ] )
-	.transform( 'babel' );
+js = gobble( [ env, js ] ).transform( 'babel' );
 
 var vendor = gobble( 'assets/js/vendor' ).moveTo( 'js' );
 
